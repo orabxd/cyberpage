@@ -40,12 +40,14 @@
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
     </head>
 
     <body>
-        <div class="menu-btn">
+        <div class="menu-btn menu_bar">
             <i class="fas fa-bars fa-2x"></i>
         </div>
 
@@ -60,14 +62,48 @@
                     <li>
                         <a href="#">INICIO</a>
                     </li>
-                    <li>
-                        <a href="#">EMPRESA</a>
+                    <li class="submenu">
+                        <a href="#" class="caret">EMPRESA</a>
+                        <ul class="children">
+                            <li>
+                                <a href="#">¿QUIENES SOMOS?</a>
+                            </li>
+                            <li>
+                                <a href="#">MISIÓN</a>
+                            </li>
+                            <li>
+                                <a href="#">VISIÓN</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
+                    <li class="submenu">
                         <a href="#">SERVICIOS</a>
+                        <ul class="children">
+                            <li>
+                                <a href="#">MANTENIMIENTO Y REPARACIÓN DE COMPUTADORAS</a>
+                            </li>
+                            <li>
+                                <a href="#">SERVICIOS DE DISEÑO GRÁFICO, MULTIMEDIA Y OFIMÁTICA</a>
+                            </li>
+                            <li>
+                                <a href="#">SERVICIOS DE PROGRAMACIÓN Y DISEÑO WEB</a>
+                            </li>
+                            <li>
+                                <a href="#">VENTA DE ACCESORIOS Y PRODUCTOS TECNOLÓGICOS</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="#">CIBERNÉTICO</a>
+                    <li class="submenu">
+                        <a href="#">RESPONSABILIDAD SOCIAL</a>
+                        <ul class="children">
+                            <li>
+                                <a href="#">#CYBERQuotes</a>
+                            </li>
+                            <li>
+                                <a href="#">ACADEMIA DE EXPERTOS</a>
+                            </li>
+
+                        </ul>
                     </li>
                     <li>
                         <a href="#">CONTACTO</a>
@@ -83,16 +119,15 @@
             </nav>
             <hr />
 
-            <!-- SHOWCASE -->
-            <!-- SHOWCASE -->
-            <header class="not-found">
-                <a
-                    href="./index.html"
-                    class="button nf-button"
-                    >INICIO<i class="fas fa-angle-double-right"></i
-                ></a>
-            </header>
-
+            <!-- NOT FOUND -->
+            
+            <img src="./img/404.png" alt="" class="not-found">
+            <div class="not-found-div">
+                <h1>ERROR 404: NOT FOUND</h1>
+                <p>Vamos, no ha pasado nada <br> Regresemos a la página principal</p>
+                <a href="index.html" class="button">INICIO</a>
+            </div>
+            
             <section class="social">
                 <p>¡Siguenos en nuestras redes!</p>
                 <div class="links">
