@@ -80,6 +80,16 @@ hr{
     justify-content: center;
 }
 
+.text{
+    padding: 10px;
+    background: #00000080;
+}
+
+.text_header{
+    font-family: "PT Sans Narrow", sans-serif;;
+    font-size: 2em;
+}
+
 .button{
     cursor: pointer;
     display: inline-block;
@@ -136,7 +146,7 @@ hr{
 
 .help-cards img{
     width: 100%;
-    height: 250px;
+    height: 100%;
 }
 
 .help-cards h3{
