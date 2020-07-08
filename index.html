@@ -19,21 +19,37 @@
             href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
             rel="stylesheet"
         />
-        
+
         <!-- FAVICONS -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
     </head>
 
     <body>
-        <div class="menu-btn">
+        <div class="menu-btn menu_bar">
             <i class="fas fa-bars fa-2x"></i>
-          </div>
+        </div>
 
         <div class="container">
             <nav class="nav-main">
@@ -46,14 +62,48 @@
                     <li>
                         <a href="#">INICIO</a>
                     </li>
-                    <li>
-                        <a href="#">EMPRESA</a>
+                    <li class="submenu">
+                        <a href="#" class="caret">EMPRESA</a>
+                        <ul class="children">
+                            <li>
+                                <a href="#">¿QUIENES SOMOS?</a>
+                            </li>
+                            <li>
+                                <a href="#">MISIÓN</a>
+                            </li>
+                            <li>
+                                <a href="#">VISIÓN</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
+                    <li class="submenu">
                         <a href="#">SERVICIOS</a>
+                        <ul class="children">
+                            <li>
+                                <a href="#">MANTENIMIENTO Y REPARACIÓN DE COMPUTADORAS</a>
+                            </li>
+                            <li>
+                                <a href="#">SERVICIOS DE DISEÑO GRÁFICO, MULTIMEDIA Y OFIMÁTICA</a>
+                            </li>
+                            <li>
+                                <a href="#">SERVICIOS DE PROGRAMACIÓN Y DISEÑO WEB</a>
+                            </li>
+                            <li>
+                                <a href="#">VENTA DE ACCESORIOS Y PRODUCTOS TECNOLÓGICOS</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="#">CIBERNÉTICO</a>
+                    <li class="submenu">
+                        <a href="#">RESPONSABILIDAD SOCIAL</a>
+                        <ul class="children">
+                            <li>
+                                <a href="#">#CYBERQuotes</a>
+                            </li>
+                            <li>
+                                <a href="#">ACADEMIA DE EXPERTOS</a>
+                            </li>
+
+                        </ul>
                     </li>
                     <li>
                         <a href="#">CONTACTO</a>
@@ -71,25 +121,36 @@
 
             <!-- SHOWCASE -->
             <header class="showcase">
-                
                 <p class="text" style="text-align: center;">
-                    <b class="text_header"> BIENVENIDO A &nbsp;<img src="./img/texto.png" alt="CYBERsmartness" style="width: 170px;"><br></b>
-                    <br>Tenemos los productos y servicios informáticos que necesitas al alcance de tu mano. <br> 
-                    Atención profesional garantizada. 💯 <br>
+                    <b class="text_header">
+                        BIENVENIDO A &nbsp;<img
+                            src="./img/texto.png"
+                            alt="CYBERsmartness"
+                            style="width: 170px;" /><br
+                    /></b>
+                    <br/>
+                    Tenemos los productos y servicios informáticos que
+                    necesitas al alcance de tu mano. <br />
+                    Atención profesional garantizada. 💯 <br />
                     #InformáticaResponsable 💡
                 </p>
-                <a href="#" class="button"
+                <!-- <a href="#" class="button"
                     >Ver más <i class="fas fa-angle-double-right"></i
-                ></a>
+                ></a> -->
             </header>
 
             <!-- TARJETAS -->
             <div class="help-cards">
                 <div>
-                    <img src="./img/cards1.jpg" alt="MANTENIMIENTO Y REPARACIÓN DE COMPUTADORAS" />
+                    <img
+                        src="./img/cards1.jpg"
+                        alt="MANTENIMIENTO Y REPARACIÓN DE COMPUTADORAS"
+                    />
                     <h3>MANTENIMIENTO Y REPARACIÓN DE COMPUTADORAS</h3>
                     <p>
-                        Contamos con personal calificado quién atenderá todas tus dudas, un catálogo extenso de software y garantía extendida para que no te preocupes por nada.
+                        Contamos con personal calificado quién atenderá todas
+                        tus dudas, un catálogo extenso de software y garantía
+                        extendida para que no te preocupes por nada.
                     </p>
                     <a href="#"
                         >Ver más <i class="fas fa-angle-double-right"></i
@@ -97,10 +158,15 @@
                 </div>
 
                 <div>
-                    <img src="./img/cards2.jpg" alt="SERVICIOS DE DISEÑO GRÁFICO, MULTIMEDIA Y OFIMÁTICA" />
+                    <img
+                        src="./img/cards2.jpg"
+                        alt="SERVICIOS DE DISEÑO GRÁFICO, MULTIMEDIA Y OFIMÁTICA"
+                    />
                     <h3>SERVICIOS DE DISEÑO GRÁFICO, MULTIMEDIA Y OFIMÁTICA</h3>
                     <p>
-                        Nos responsabilizamos de darle vida a tu imaginación, tu imagen comercial y tus responsabilidades se verán como nuca. Digitalizamos tus metas.
+                        Nos responsabilizamos de darle vida a tu imaginación, tu
+                        imagen comercial y tus responsabilidades se verán como
+                        nuca. Digitalizamos tus metas.
                     </p>
                     <a href="#"
                         >Ver más <i class="fas fa-angle-double-right"></i
@@ -108,10 +174,15 @@
                 </div>
 
                 <div>
-                    <img src="./img/cards3.jpg" alt="SERVICIOS DE PROGRAMACIÓN Y DISEÑO WEB" />
+                    <img
+                        src="./img/cards3.jpg"
+                        alt="SERVICIOS DE PROGRAMACIÓN Y DISEÑO WEB"
+                    />
                     <h3>SERVICIOS DE PROGRAMACIÓN Y DISEÑO WEB</h3>
                     <p>
-                        Nada mejor que darle un toque de las últimas tecnologías a su negocio. Conocemos todas sus necesidades y nos ajustamos su presupuesto.
+                        Nada mejor que darle un toque de las últimas tecnologías
+                        a su negocio. Conocemos todas sus necesidades y nos
+                        ajustamos su presupuesto.
                     </p>
                     <a href="#"
                         >Ver más <i class="fas fa-angle-double-right"></i
@@ -119,12 +190,17 @@
                 </div>
 
                 <div>
-                    <img src="./img/cards4.jpg" alt="VENTA DE ACCESORIOS Y PRODUCTOS TECNOLÓGICOS" />
-                        <h3>VENTA DE ACCESORIOS Y PRODUCTOS TECNOLÓGICOS</h3>
-                        <p>
-                            Sabemos lo que a nuestros clientes les encanta, es por eso que les ofrecemos la mejor gama de productos tecnológicos con calidad garantizada.
-                        </p> 
-                        
+                    <img
+                        src="./img/cards4.jpg"
+                        alt="VENTA DE ACCESORIOS Y PRODUCTOS TECNOLÓGICOS"
+                    />
+                    <h3>VENTA DE ACCESORIOS Y PRODUCTOS TECNOLÓGICOS</h3>
+                    <p>
+                        Sabemos lo que a nuestros clientes les encanta, es por
+                        eso que les ofrecemos la mejor gama de productos
+                        tecnológicos con calidad garantizada.
+                    </p>
+
                     <a href="#"
                         >Ver más <i class="fas fa-angle-double-right"></i
                     ></a>
@@ -182,7 +258,9 @@
                         <a href="#">FAQ</a>
                     </li>
                     <li>
-                        <a href="https://wa.me/50581897209">Servicio al cliente</a>
+                        <a href="https://wa.me/50581897209"
+                            >Servicio al cliente</a
+                        >
                     </li>
                     <li>
                         <a href="#">Cookies y privacidad</a>
@@ -221,7 +299,14 @@
 
         <!-- FOOTER -->
         <footer class="footer">
-            <h3>&copy; 2020 <img src="./img/texto.png" alt="CYBERsmartness" style="width: 110px;"></h3>
+            <h3>
+                &copy; 2020
+                <img
+                    src="./img/texto.png"
+                    alt="CYBERsmartness"
+                    style="width: 110px;"
+                />
+            </h3>
             <p>Todos los derechos reservados</p>
         </footer>
 
