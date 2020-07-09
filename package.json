@@ -4,10 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "parcel /*.html",
-    "build": "parcel build /*.html --out-dir prod"
-    "dev": "parcel /dir/*.html",
-    "build": "parcel build /dir/*.html --out-dir prod"
+    "dev": "parcel dir/*.html",
+    "build": "parcel build dir/*.html --out-dir prod"
   },
   "repository": {
     "type": "git",
