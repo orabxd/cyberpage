@@ -1,6 +1,5 @@
 # for root
-/	/index.html	200
-#/	/404.html	404
+/	/index.html	301
 
 ​
 # for the rest
