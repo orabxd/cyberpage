@@ -6,7 +6,7 @@
 # for the rest
 /empresa	dir/empresa.html	200
 /servicios	dir/servicios.html   200
-dir/rse.html	/rse	200
+/rse.html	/rse	200
 /contacto	dir/contacto.html   200
 /cookies	dir/cookies.html	200
 /servicios	dir/servicios.html   200
