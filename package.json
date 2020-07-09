@@ -1,0 +1,23 @@
+{
+  "name": "cyberpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel /*.html",
+    "build": "parcel build /*.html --out-dir prod"
+    "dev": "parcel /dir/*.html",
+    "build": "parcel build /dir/*.html --out-dir prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orabxd/cyberpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orabxd/cyberpage/issues"
+  },
+  "homepage": "https://github.com/orabxd/cyberpage#readme"
+}
