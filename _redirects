@@ -3,9 +3,9 @@
 
 ​
 # for the rest
-dir/empresa/empresa.html	/empresa/*	200
-dir/servicios/servicios.html	/servicios/*   200
-dir/contacto/contacto.html	/contacto/*   200
-dir/cookies/cookies.html	/cookies/*	200
-dir/servicios/servicios.html	/servicios/*	200
-dir/rse/rse.html	/rse/*	200
+/dir/empresa/empresa.html	/empresa/*	200
+/dir/servicios/servicios.html	/servicios/*	200
+/dir/contacto/contacto.html	/contacto/*	200
+/dir/cookies/cookies.html	/cookies/*	200
+/dir/servicios/servicios.html	/servicios/*	200
+/dir/rse/rse.html	/rse/*	200
