@@ -1,13 +1,11 @@
 # for root
-/rse.html	/rse	200
 /	/index.html	200
-/*	/404.html	404
 
 ​
 # for the rest
-/empresa	dir/empresa.html	200
-/servicios	dir/servicios.html   200
-
-/contacto	dir/contacto.html   200
-/cookies	dir/cookies.html	200
-/servicios	dir/servicios.html   200
+/empresa/*	/dir/empresa/empresa.html	200
+/servicios/*	/dir/servicios/servicios.html   200
+/contacto/*	/dir/contacto/contacto.html   200
+/cookies/*	/dir/cookies/cookies.html	200
+/servicios/*	/dir/servicios/servicios.html   200
+/rse/*	/dir/rse/rse.html	200
