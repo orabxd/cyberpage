@@ -2,7 +2,6 @@
 /	/index.html	200
 /*	/404.html	404
 
-​
 # for the rest
 /dir/empresa.html	/empresa/*	200!
 /servicios/*	/dir/servicios.html	200!
