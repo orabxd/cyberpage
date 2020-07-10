@@ -1,6 +1,5 @@
 # for root
 /	/index.html	200
-/*	/404.html	404
 
 # for the rest
 /empresa/*	/dir/empresa.html	200!
