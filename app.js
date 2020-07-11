@@ -1,3 +1,4 @@
+const navBtn = document.getElementById("btnMenuBar");// Identificador del boton amborguesa
 document.querySelector(".menu-btn").addEventListener("click", () => {
     document.querySelector(".nav-menu").classList.toggle("show");
 });
@@ -31,3 +32,6 @@ function main () {
 	});
 }
 
+navBtn.addEventListener("click", event =>{
+	window.scrollTo(0,0);
+})
