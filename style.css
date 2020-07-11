@@ -169,6 +169,30 @@ hr {
     display: none;
 }
 
+/* WIDGETS */
+
+.widgets {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.ig-widget{
+    height: auto;
+    max-width: 100%;
+    border: 0; 
+    overflow: hidden;
+}
+
+.opinion-widget{
+    grid-column: 2 / span 2;
+}
+
+/* OPINIONES */
+
+
+
 /* HELP CARDS */
 
 .help-cards {
