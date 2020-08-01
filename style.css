@@ -1,9 +1,11 @@
+/* CONFIGURACIONES GLOBALES */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* ASIGNACIÓN DE COLORES DE FONDO, PATRON Y FAMILIA DE FUENTES */
 body {
     background-color: #004367;
     color: #ffffff;
@@ -13,21 +15,24 @@ body {
     overflow-y: scroll;
 }
 
+/* CONFIGURACIÓN DE A PARA TODOS LOS CAMPOS DEL DOCUMENTO */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* CONFIGURACION DE LAS LISTAS */
 ul {
     list-style: none;
 }
 
+/* COMIENZA BLOQUE DE ESTILO DE LA BARRA DE NAVEGACIÓN */
 .container {
     width: 90%;
     margin: auto;
 }
 
-/* NAVEGACIÓN */
+/* AJUSTES PRINCIPALES DE LA BARRA DE NAVEGACIÓN*/
 .nav-main {
     font-size: 16px;
     display: flex;
@@ -39,15 +44,18 @@ ul {
     
  }
 
+ /* POSICIÓN DEL LOGO EN LA BARRA DE NAVEGACION */
 .nav-logo {
     margin-left: 10px;
     width: 40px;
 }
 
+/* DISPOSICIÓN DE LOS ELEMENTOS DE LA BARRA DE NAVEGACIÓN */
 .nav-main ul {
     display: flex;
 }
 
+/* COMIENZA BLOQUE DE EDICIÓN DE COMPORTAMIENTO DE LA BARRA DE NAVEGACIÓN */
 .nav-main ul li {
     padding: 30px;
 }
@@ -56,6 +64,7 @@ ul {
     padding: 0.15px;
 }
 
+/* COMPORTAMIENTO AL PASAR EL RATON */
 .nav-main ul li a:hover {
     margin-bottom: 1px;
     border-bottom: 2px solid #ffffff;
@@ -75,11 +84,12 @@ ul, ol {
     
 }
 
-
+/* COMPORTAMIENTO AL PASAR EL RATÓN SOBRE EL MENÚ DESPLEGABLE */
 .nav-main ul li:hover .children {
 	display:block;
 }
 
+/* FONDO Y COMPORTAMIENTO DEL MENÚ DESPLEGABLE */
 .nav-main ul li .children {
     display: none;
     top: 63px;
@@ -99,12 +109,16 @@ ul, ol {
 .nav-main ul li .children li a {
     display: block;
 }
+/* TERMINA BLOQUE DE EDICIÓN DE COMPORTAMIENTO DE LA BARRA DE NAVEGACIÓN */
+/* TERMINA BLOQUE DE ESTILO DE LA BARRA DE NAVEGACIÓN */
 
-/* SHOWCASE */
+
+/* COMIENZA BLOQUE DE ESTILO DE IMAGEN Y CONTENEDOR PRINCIPAL */
 hr {
     margin-bottom: 20px;
 }
 
+/* ATRIBUTOS DE LA IMAGEN PRINCIPAL SHOWCASE */
 .showcase {
     width: auto;
     height: 350px;
@@ -117,17 +131,20 @@ hr {
     justify-content: center;
 }
 
+/* TEXTO QUE VA DENTRO DE LA IMAGEN PRINCIPAL */
 .text {
     padding: 10px;
     background: #00000080;
     font-size: 1.3em;
 }
 
+/* TITULO DEL CONTENEDOR DE LA IMAGEN PRINCIPAL */
 .text_header {
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 2em;
 }
 
+/* BOTON QUE SE UTILIZA POR DEFECTO EN TODO EL DOCUMENTO */
 .button {
     cursor: pointer;
     display: inline-block;
@@ -141,15 +158,18 @@ hr {
     margin: 15px 0;
 }
 
+/* COMPORTAMIENTO DEL BOTON */
 .button:hover {
     opacity: 0.9;
 }
 
+/* OTROS ESTILOS DEL SHOWCASE */
 .showcase h2,
 .showcase p {
     margin-bottom: 10px;
 }
 
+/* COMIENZA BLOQUE DE COMPORTAMIENTO DE LA PÁGINA NOT FOUND 404 */
 .not-found{
     display:block;
     margin:auto;
@@ -160,9 +180,9 @@ hr {
 .not-found-div{
     text-align: center;
 }
+/* TERMINA BLOQUE DE COMPORTAMIENTO DE LA PÁGINA NOT FOUND 404 */
 
-/* MENU BUTTON */
-
+/* COMPORTAMIENTO DEL BOTON DE MENU DE DISPOSITIVOS MOVILES */
 .menu-btn {
     cursor: pointer;
     position: absolute;
@@ -172,7 +192,7 @@ hr {
     display: none;
 }
 
-/* WIDGETS */
+/* CONTENEDOR DE WIDGET TESTIMONIAL */
 
 .widgets {
     display: grid;
@@ -181,23 +201,7 @@ hr {
     margin: 20px 0;
 }
 
-.ig-widget{
-    height: auto;
-    max-width: 100%;
-    border: 0; 
-    overflow: hidden;
-    
-}
-
-.opinion-widget{
-    grid-column: 2 / span 2;
-}
-
-/* OPINIONES */
-
-
-
-/* HELP CARDS */
+/* COMIENZA BLOQUE DE ESTILO DE LOS SERVICIOS PRESTADOS */
 
 .help-cards {
     display: grid;
@@ -206,17 +210,20 @@ hr {
     margin: 20px 0;
 }
 
+/* ESTILO DE LAS IMAGENES CONTENIDAS EN LOS SERVICIOS PRESTADOS */
 .help-cards img {
     height: auto;
  max-width: 100%;
 }
 
+/* ESTILO DEL TITULO */
 .help-cards h3 {
     font-size: 20px;
     margin: 10px 0;
     text-transform: uppercase;
 }
 
+/* ESTILO DEL TEXTO */
 .help-cards a {
     padding: 10px 0;
     color: #f2f2f2;
@@ -225,16 +232,19 @@ hr {
     font-weight: bold;
 }
 
+/* ESTILO DEL COMPORTAMIENTO AL PONER EL CURSOR */
 .help-cards a:hover {
     text-decoration: underline;
 }
 
-/* SOCIAL */
+/* TERMINA BLOQUE DE ESTILO DE LOS SERVICIOS PRESTADOS */
 
+/* ESTILO DEL BLOQUE SOCUIAL */
 .social {
     margin: 50px;
 }
 
+/* ESTILO DEL PARRAFO DENTRO DEL BLOQUE SOCIAL */
 .social p {
     text-align: center;
     font-weight: bold;
@@ -242,6 +252,7 @@ hr {
     margin-bottom: 20px;
 }
 
+/* ESTILO DE FONT AWESOME PARA LOS ICONOS DEL BLOQUE SOCIAL */
 .links {
     display: flex;
     align-items: center;
@@ -255,8 +266,9 @@ hr {
 .links a i {
     font-size: 2rem;
 }
+/* FIN DEL BLOQUE SOCIAL */
 
-/* FOOTERS */
+/* LINKS DEL FOOTER */
 
 .footer-links {
     background: #0024387a;
@@ -265,6 +277,7 @@ hr {
     padding: 35px 0;
 }
 
+/* CONTENEDOR DE LOS LINKS DEL FOOTER */
 .footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -281,6 +294,7 @@ hr {
     line-height: 2.8;
 }
 
+/* FOOTER FINAL DE COPYRIGHT */
 .footer {
     background: #2f3640ad;
     color: #ffffff;
@@ -297,11 +311,14 @@ body.ocultar{
 
 /* MEDIA QUERIES */
 
+/* MEDIA QUERIES PARA MENORES DE 768 PIXELES */
 @media (max-width: 768px) {
+    /* COMPORTAMIENTO DE LA BARRA DE NAVEGACIÓN */
     .nav-main ul li a:hover {
         border-bottom: 0.5px solid #ffffff;
     }
 
+    /* COMPORTAMIENTO DEL BOTON DE QUE APARECE EN DISPOSITIVOS MOVILES */
     .menu-btn {
         display: block;
     }
@@ -310,6 +327,7 @@ body.ocultar{
         opacity: 0.5;
     }
 
+    /* COMPORTAMIENTO DEL MENU QUE APARECE EN DISPOSITIVOS MOVILES */
     .nav-main ul.nav-menu {
         display: block;
         position: absolute;
@@ -325,6 +343,7 @@ body.ocultar{
        
     }
 
+    /* DECORACIONES DEL MENU QUE APARECE EN DISPOSITIVOS MOVILES */
     .nav-main ul.nav-menu li {
         padding: 20px;
         border-bottom: #ccc solid 1px;
@@ -334,6 +353,7 @@ body.ocultar{
         border-bottom: 0;
     }
 
+    /* COMPORTAMIENTO DE LA APARICIÓN DEL MENU QUE APARECE EN DISPOSITIVOS MOVILES */
     .nav-main ul.nav-menu.show {
         transform: translateX(-30px);
         transition: transform 0.5s ease-in-out;
@@ -341,6 +361,7 @@ body.ocultar{
         
     }
 
+    /* COMPORTAMIENTO Y ESTILOS DE LAS SUBLISTAS DENTRO DEL MENU QUE APARECE EN DISPOSITIVOS MOVILES */
     .nav-main ul.nav-menu-right {
         margin-right: 50px;
     }
@@ -361,35 +382,41 @@ body.ocultar{
         margin-left:0px;
 	}
 
+    /* COMPORTAMIENTO DE LAS IMAGENES DE LOS SERVICIOS PRESTADOS */
     .help-cards {
         grid-template-columns: repeat(2, 1fr);
     }
 
-
+    /* COMPORTAMIENTO DEL TEXTO DE LAS IMAGENES DE LOS SERVICIOS PRESTADOS */
     .text{
         font-size: 1em;
     }
 
-    .cards-banner-one .content,
+    /* .cards-banner-one .content,
     .cards-banner-two .content {
         width: 80%;
-    }
+    } */
 
+    /* COMPORTAMIENTO DEL CONTENEDOR DEL FOOTER */
     .footer-links .footer-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* MEDIA QUERIES PARA MENORES DE 500px */
 @media (max-width: 500px) {
+    /* COMPORTAMIENTO DE LAS IMAGENES DE LOS SERVICIOS PRESTADOS */
     .help-cards {
         grid-template-columns: 1fr;
     }
 
-    .cards-banner-one .content,
+    /* .cards-banner-one .content,
     .cards-banner-two .content {
         width: 100%;
         padding: 60px 20px;
-    }
+    } */
+    
+    /* COMPORTAMIENTO DEL CONTENEDOR DEL FOOTER */
     .footer-links .footer-container {
         grid-template-columns: 1fr;
     }
